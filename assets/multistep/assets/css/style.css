@@ -1,0 +1,205 @@
+
+body {
+	background: #333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+}
+
+strong { font-weight: 700; }
+
+a, a:hover, a:focus {
+	color: #a93a52;
+	text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+h1, h2 {
+	margin-top: 10px;
+	font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 44px;
+}
+h4.judul{
+	margin-top: 50px;
+	font-size: 25px;
+    font-weight: 700;
+	color: rgb(107, 181, 250);
+    line-height: 35px;
+}
+
+h5.detail{
+	margin-top: 10px;
+	font-size: 15px;
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+    line-height: 44px;
+}
+
+h5.profil{
+	margin-top: 10px;
+	font-size: 15px;
+    font-weight: 500;
+    color: rgb(243, 239, 239);
+	line-height: 30px;
+	text-align: left;
+}
+
+p {
+	/* margin-top: 10px; */
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+    color: rgb(43, 42, 42);
+    line-height: 30px;
+}
+
+h5 {
+	/* margin-top: 10px; */
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+    color: rgb(63, 62, 62);
+    line-height: 30px;
+}
+
+img { max-width: 100%;
+	opacity: 2;
+	border-radius: 5%;
+ }
+
+.card {
+/* Add shadows to create the "card" effect */
+box-shadow: 0 4px 8px 0 rgba(248, 246, 246, 0.884);
+transition: 0.3s;
+border-radius:3%;
+margin-top: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(248, 246, 246, 0.842);
+/* border-radius:3%; */
+}
+
+/* Add some padding inside the card container */
+.container {
+padding: 2px 16px;
+/* border-radius:3%; */
+}
+
+::-moz-selection { background: #a93a52; color: #fff; text-shadow: none; }
+::selection { background: #a93a52; color: #fff; text-shadow: none; }
+
+
+/***** Top menu *****/
+
+.navbar {
+	padding-top: 3px;
+	padding-bottom: 1px;
+	background: #333;
+	background: #00adeeff;
+	border: 0;
+	-o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+ul.navbar-nav {
+	font-size: 16px;
+	color: #fff;
+}
+
+.navbar-inverse ul.navbar-nav li { padding-top: 13px; padding-bottom: 4px; }
+
+.navbar-inverse ul.navbar-nav li .li-text { margin-right: 10px; opacity: 0.8; }
+
+.navbar-inverse ul.navbar-nav li a {
+	 display: inline; 
+	 padding: 0; 
+	 color: rgb(255, 255, 255); 
+}
+.navbar-inverse ul.navbar-nav li a:hover {
+	 color: rgb(53, 20, 16); 
+	 opacity: 1; 
+	 border-bottom: 0px 
+	 dotted rgb(16, 41, 53); 
+}
+.navbar-inverse ul.navbar-nav li a:focus { 
+	color: rgb(21, 22, 22); 
+	outline: 0; 
+	opacity: 1; 
+	border-bottom: 0px 
+	dotted rgb(16, 41, 53); 
+}
+
+.navbar-inverse ul.navbar-nav li .li-social a {
+	margin: 0 7px;
+	font-size: 28px;
+	vertical-align: middle;
+}
+.navbar-inverse ul.navbar-nav li .li-social a:hover, 
+.navbar-inverse ul.navbar-nav li .li-social a:focus { border: 0; color: #a93a52; }
+
+.navbar-brand {
+	width: 180px;
+	background: url(../img/logo4.png) left center no-repeat;
+	text-indent: -99999px;
+}
+.navbar>.container .navbar-brand { margin-left: 0; }
+
+
+/***** Description *****/
+
+.description-container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.description-title { padding-bottom: 10px; }
+.description-text { opacity: 0.8; }
+
+.description-text a { color: #fff; border: 0; }
+.description-text a:hover,
+.description-text a:focus { color: #fff; border-bottom: 1px dotted #fff; }
+
+.description-text .divider-1 { margin-top: 50px; }
+
+
+/***** Multi Step Form *****/
+
+.msf-container { padding-bottom: 80px; text-align: center; }
+
+.msf-title h3 { padding-bottom: 10px; font-weight: 700; }
+.msf-title p { opacity: 0.8; }
+
+.msf-form h4 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	line-height: 26px;
+}
+.msf-form h4 .step { color: #aaa; }
+
+.msf-form form fieldset { display: none; overflow: hidden; }
+
+.msf-form form input[type="text"] { width: 400px; margin-left: 5px; margin-right: 5px; }
+
+.msf-form form textarea.form-control { width: 700px; height: 160px; }
+
+.msf-form form select.form-control { width: 400px; margin-left: 5px; margin-right: 5px; }
+
+.msf-form form .form-group { margin-bottom: 15px; }
+
+.msf-form form button.btn { min-width: 300px; margin-top: 15px; margin-left: 5px; margin-right: 5px; }
+
+.msf-form form p { opacity: 1.8; }
+
+.msf-form form .radio-buttons-1,
+.msf-form form .radio-buttons-2,
+.msf-form form .checkboxes-1,
+.msf-form form .checkboxes-2 { display: inline-block; margin: 0 15px 20px 15px; }
+
+.msf-form form .selects-1,
+.msf-form form .selects-2 { display: inline-block; margin: 0 0 20px 0; }
+
